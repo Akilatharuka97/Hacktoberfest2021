@@ -3,7 +3,10 @@ using namespace std;
 
     int main()
     {
+	    
     	int width, lngth, peri;
+	    
+	cout<<" Calculate Perimeter of the Rectangle ";    
 	    
         cout<<" Input the length of the rectangle : ";
     	cin>>lngth;
@@ -13,7 +16,7 @@ using namespace std;
 	    
 		peri=2*(lngth+width);
 	    
-        cout<<" The perimeter of the rectangle is : "<< peri << endl;		
+        cout<<" The perimeter of the rectangle is : "<< peri << endl;	
         cout << endl;
 	    
         return 0;
