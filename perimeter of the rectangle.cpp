@@ -1,14 +1,24 @@
-#include <iostream>
 
-    int main()
-    {
-    	int width, lngth, peri;	
-        cin<<" Input the length of the rectangle : ";
-    	cout>>lngth;
-		  cin<<" Input the width of the rectangle : ";
-    	cout>>width;
-		  peri=2*(lngth+width);
-        cin<<" The perimeter of the rectangle is : "<< peri << endl;		
-        cin << endl;
-        return 0;
-    }
+#include<bits/stdc++.h>
+using namespace std;
+int areaRectangle(int a, int b)
+{
+int area = a * b;
+return area;
+}
+
+int perimeterRectangle(int a, int b)
+{
+int perimeter = 2*(a + b);
+return perimeter;
+}
+
+int main()
+{
+int a = 5;
+int b = 6;
+cout << "Area = " << areaRectangle(a, b) << endl;
+cout << "Perimeter = " << perimeterRectangle(a, b);
+return 0;
+}
+
